@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Integrating Github with RStudio project | Conan cookery</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Integrating Github with RStudio project" />
+<meta name="author" content="Conan Liu" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Why?" />
+<meta property="og:description" content="Why?" />
+<link rel="canonical" href="http://localhost:4000/blog-ds-and-coding/ds/2021/07/24/Github-integration-with-R.html" />
+<meta property="og:url" content="http://localhost:4000/blog-ds-and-coding/ds/2021/07/24/Github-integration-with-R.html" />
+<meta property="og:site_name" content="Conan cookery" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-07-24T23:28:16+10:00" />
+<script type="application/ld+json">
+{"description":"Why?","headline":"Integrating Github with RStudio project","dateModified":"2021-07-24T23:28:16+10:00","datePublished":"2021-07-24T23:28:16+10:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog-ds-and-coding/ds/2021/07/24/Github-integration-with-R.html"},"url":"http://localhost:4000/blog-ds-and-coding/ds/2021/07/24/Github-integration-with-R.html","author":{"@type":"Person","name":"Conan Liu"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Conan cookery" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><!-- original code for the title
+    
+    <a class="site-title" rel="author" href="/">Conan cookery</a>
+
+    -->
+    
+    <a class="site-title" rel="author" href="/"><img src="/images/title-logo1.svg" 
+      onmousedown="this.src='/images/title-logo.png';" 
+      onmouseout="this.src='/images/title-logo1.png';" 
+      width = 50px height = auto;></img></a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/blog-academic/">Academics</a><a class="page-link" href="/blog-ds-and-coding/">Data Science</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content" height = 100%>
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Integrating Github with RStudio project</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-07-24T23:28:16+10:00" itemprop="datePublished">Jul 24, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1><b>Why?</b></h1>
+
+<p>By integrating an RStudio project with Github, you can directly push changes using Git. This is extremely convenient and is actually what I used to build a website for my club, completely within R itself. And, to my observation, you can create a whole project, sync it to a new repo and when you commit+push all your new files, you may upload more than 100 files at once.</p>
+
+<h1><b>Step 1: create a new Github repository</b></h1>
+
+<p>Go create a new repository. The <code class="language-plaintext highlighter-rouge">readme.md</code> file is optional.</p>
+
+<h1><b>Step 2: enable Git in RStudio</b></h1>
+
+<ol>
+  <li>
+    <p>Open your project in RStudio and follow Tools -&gt; Version Control -&gt; Project Setup.</p>
+  </li>
+  <li>
+    <p>Click on the SVN/Git tab. Select Git as the version control system. It will ask you to initialise a new Git repo and restart RStudio.</p>
+  </li>
+  <li>
+    <p>After Rstudio reopens, confirm that there is a Git tab in the <b>environment<b> (where you view all your objects) pane (top right by default).</b></b></p>
+  </li>
+</ol>
+
+<h1><b>Step 3: synchronise with a Github repository</b></h1>
+
+<p>In RStudio, click on the terminal tab and start a new terminal session. Then enter:</p>
+
+<figure class="highlight"><pre><code class="language-terminal" data-lang="terminal"><span class="go">cd</span></code></pre></figure>
+
+<p>This sets your terminal directory to home default. Then add next locations step wise. For me, I had my project on my desktop, and its name was “club”. So, I would enter:</p>
+
+<figure class="highlight"><pre><code class="language-terminal" data-lang="terminal"><span class="go">cd Desktop</span></code></pre></figure>
+
+<p>And then</p>
+
+<figure class="highlight"><pre><code class="language-terminal" data-lang="terminal"><span class="go">cd Desktop/club</span></code></pre></figure>
+
+<p>Next, set an origin:</p>
+
+<figure class="highlight"><pre><code class="language-terminal" data-lang="terminal"><span class="go">git remote add origin https://github.com/yourUSERname/REPOname.git</span></code></pre></figure>
+
+<p>If you added optional files into your repo, such as the <code class="language-plaintext highlighter-rouge">.gitignore</code>, <code class="language-plaintext highlighter-rouge">readme.md</code> or <code class="language-plaintext highlighter-rouge">license.md</code> file, enter</p>
+
+<figure class="highlight"><pre><code class="language-terminal" data-lang="terminal"><span class="go">git pull origin master</span></code></pre></figure>
+
+<p>To pull them from the otherwise empty repository. If you didn’t add any files, no need for this step.</p>
+
+<p>Finally, enter</p>
+
+<figure class="highlight"><pre><code class="language-terminal" data-lang="terminal"><span class="go">git push -u origin master</span></code></pre></figure>
+
+<p>Now, you should be ready to commit files to the repository. Along the way you may have needed to sign in to your Github account and entered some keychains if on a Mac.</p>
+
+<h1><b>Step 4: push files to Github from RStudio</b></h1>
+
+<p>In the environment pane, click on the Git tab and then click Commit. This will open a window where you can track files you made changes to. Tick all boxes for files you want to push. If you are using Github to build a website, and you have lots of files changing at once after building it to see how it looks, you can tick one box, go CMD+A and tick all of them. Write a commit message in the adjacent field and then click an up arrow to push.</p>
+
+  </div><a class="u-url" href="/blog-ds-and-coding/ds/2021/07/24/Github-integration-with-R.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Conan cookery</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Conan Liu</li><li><a class="u-email" href="mailto:conan.liu88@gmail.com">conan.liu88@gmail.com</a></li><li>&copy; Conan Liu 2021</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://instagram.com/conancookery"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#instagram"></use></svg> <span class="username">conancookery</span></a></li><li><a href="https://github.com/partyincimmeria"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">partyincimmeria</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>GF</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</html>
