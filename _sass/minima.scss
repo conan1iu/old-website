@@ -87,15 +87,17 @@ padding-right: 100px;
 
 }
 
+
 #header {
   height: auto;
   padding: 100px 116px;
   width: 100%;
-  background-image: url("https://wallpaperaccess.com/full/346725.jpg");
+  background: url("https://wallpaperaccess.com/full/346725.jpg"); 
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-}
+  background-repeat: repeat;
+  background-attachment: fixed;
+} 
 
 h5{
   color: white;
