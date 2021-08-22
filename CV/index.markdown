@@ -1,5 +1,5 @@
 ---
-title: "Circum Vitae"
+title: "Curriculum Vitae"
 layout: post2
 ---
 
