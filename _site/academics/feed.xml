@@ -4,7 +4,7 @@
 <link href="http://localhost:4000/blog-academic/feed.xml" rel ="self" type="application/atom+xml"/>
 <link href="http://localhost:4000/blog-academic/" rel = "alternate" type = "text/html"/>
 
-<updated>2021-08-22T14:21:49+10:00</updated>
+<updated>2021-08-22T14:32:50+10:00</updated>
 <id>http://localhost:4000/blog-academic/feed.xml</id>
 <title>Conan cookery Academic blog </title>
 <subtitle>GF</subtitle>
@@ -13,14 +13,14 @@
      <name>Conan Liu</name>
        </author><entry>
         <title>Report</title>
-        <id>http://localhost:4000/blog-academic/academic/2021/04/11/fourier.html</id>
-        <link href ="http://localhost:4000/blog-academic/academic/2021/04/11/fourier.html}"/>
+        <id>http://localhost:4000/academics/academic/2021/04/11/fourier.html</id>
+        <link href ="http://localhost:4000/academics/academic/2021/04/11/fourier.html}"/>
         <updated>2021-04-11T23:28:16+10:00</updated>
         <summary>Fourier Transform report:</summary>
     </entry><entry>
         <title>Textbook</title>
-        <id>http://localhost:4000/blog-academic/academic/2020/12/03/textbook.html</id>
-        <link href ="http://localhost:4000/blog-academic/academic/2020/12/03/textbook.html}"/>
+        <id>http://localhost:4000/academics/academic/2020/12/03/textbook.html</id>
+        <link href ="http://localhost:4000/academics/academic/2020/12/03/textbook.html}"/>
         <updated>2020-12-03T00:28:16+11:00</updated>
         <summary></summary>
     </entry></feed>
