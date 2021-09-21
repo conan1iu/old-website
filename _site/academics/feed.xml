@@ -4,7 +4,7 @@
 <link href="http://localhost:4000/blog-academic/feed.xml" rel ="self" type="application/atom+xml"/>
 <link href="http://localhost:4000/blog-academic/" rel = "alternate" type = "text/html"/>
 
-<updated>2021-08-22T15:01:09+10:00</updated>
+<updated>2021-09-21T11:04:06+10:00</updated>
 <id>http://localhost:4000/blog-academic/feed.xml</id>
 <title>GF Academic blog </title>
 <subtitle>Under construction</subtitle>
@@ -12,16 +12,16 @@
     <author>
      <name>Conan Liu</name>
        </author><entry>
-        <title>Report</title>
+        <title>Fourier Transform Report</title>
         <id>http://localhost:4000/academics/academic/2021/04/11/fourier.html</id>
         <link href ="http://localhost:4000/academics/academic/2021/04/11/fourier.html}"/>
         <updated>2021-04-11T23:28:16+10:00</updated>
-        <summary>Fourier Transform report:</summary>
+        <summary>This was an assignment where we had to detail an application of complex numbers. I spent around three days trying to find a great application and landed on the fourier transform from signal analysis videos! The report also includes a wonderful, real world analysis example where a time series is broken into individual sine waves.</summary>
     </entry><entry>
-        <title>Textbook</title>
+        <title>Neural Networks Textbook</title>
         <id>http://localhost:4000/academics/academic/2020/12/03/textbook.html</id>
         <link href ="http://localhost:4000/academics/academic/2020/12/03/textbook.html}"/>
         <updated>2020-12-03T00:28:16+11:00</updated>
-        <summary></summary>
+        <summary>This was an assignment where we had to design a textbook chapter on an application of matrices. I chose neural networks!</summary>
     </entry></feed>
 

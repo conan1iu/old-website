@@ -1,14 +1,24 @@
 ---
 layout: post2
-title:  "Report"
+title:  "Fourier Transform Report"
 date:   2021-04-12 00:28:16 +1100
 categories: academic
 ---
+<br>
+This was an assignment where we had to detail an application of complex numbers. I spent around three days trying to find a great application and landed on the fourier transform from signal analysis videos! The report also includes a wonderful, real world analysis example where a time series is broken into individual sine waves. 
 
-Fourier Transform report:
+All images that are unreferenced (all but one), including the graphs and spiral images, were all created using functions in R. These were quite finnicky, to be honest. 
+
+ggplot2 was used to plot the cartesian planes. 
+
+The report was created using RSweave/LaTeX. 
+
+It should be noted the formatting is sometimes... off. Looking back on this I probably would have wanted 
+
+<br>
 
 <centre>
 <iframe 
-src="" width="100%" height="900px" frameborder="0" allowfullscreen allowTransparency="true">
+src="https://drive.google.com/file/d/1lArDzTNNePDyorZPIuKdKlXkjoq_jhvg/preview" width="100%" height="900px" frameborder="0" allowfullscreen allowTransparency="true">
 </iframe>
 </centre>
