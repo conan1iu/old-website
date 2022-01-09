@@ -3,7 +3,9 @@ title: "Curriculum Vitae"
 layout: post2
 ---
 
+Currently unavailable.
+
 <centre>
 <iframe 
-src="https://drive.google.com/file/d/1DuMyCPDXu_kqkTncv7q_Ln9pO_g0TMnV/preview" width="100%" height="900px" frameborder="0" allowfullscreen></iframe>
+src="" width="100%" height="900px" frameborder="0" allowfullscreen></iframe>
 </centre>
