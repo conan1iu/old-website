@@ -1,13 +1,19 @@
 ---
 layout: post2
 title:  "Melbourne Housing Market Analysis"
-date:   2022-01-16 00:28:16 +1100
+date:   2022-01-12 00:28:16 +1100
 categories: ds
 ---
+<br>
 
-This is a housing market analysis I conducted as a learning-based, self-guided project. 
+This was a self-guided project where I analysed a Melbourne housing market dataset from Kaggle. Credit to Tony Pino for that. 
+
+It was conducted completely in RStudio, with the help of RSweave. 
+
+<br>
 
 <centre>
 <iframe 
-src="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/view" width="100%" height="900px" frameborder="0" allowfullscreen></iframe>
+src="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" width="100%" height="900px" frameborder="0" allowfullscreen allowTransparency="true">
+</iframe>
 </centre>
