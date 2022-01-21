@@ -1,0 +1,13 @@
+---
+layout: post2
+title:  "Melbourne Housing Market Analysis"
+date:   2022-01-16 00:28:16 +1100
+categories: ds
+---
+
+This is a housing market analysis I conducted as a learning-based, self-guided project. 
+
+<centre>
+<iframe 
+src="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/view" width="100%" height="900px" frameborder="0" allowfullscreen></iframe>
+</centre>

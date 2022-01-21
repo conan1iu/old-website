@@ -26,7 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://partyincimmeria.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: liuhftt
 github_username:  partyincimmeria
-linkedin_username:  conan-liu
+linkedin_username:  liuconan
+facebook_username:  liuconan
 
 #non defaults
 
