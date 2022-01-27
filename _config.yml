@@ -21,7 +21,7 @@
 title: Cimmerian Library
 email: conan.liu88@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  
+site_favicon: favicon.svg
 #baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://conan-1iu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: liuhftt
