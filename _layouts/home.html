@@ -1,11 +1,22 @@
 ---
 layout: default3
 ---
-
+<head>
+  <script>
+  window.onload = function() {
+    setTimeout( function() {
+      document.querySelector( '.quote' ).className = ( 'quote active' );    
+    }, 100 )
+  }
+  </script>
+  </head>
 
 <div id="header">
-  
-    <h5></h5><h1><a href="https://conan-1iu.github.io/about/" id="download">About</a></h1>
+  <h1><a href="https://conan-1iu.github.io/about/" id="download" class = "quote">
+
+    About me
+
+  </a></h1>
 </div>
 
 <br>
