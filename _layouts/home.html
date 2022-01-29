@@ -2,28 +2,38 @@
 layout: default3
 ---
 <head>
+
   <script>
   window.onload = function() {
     setTimeout( function() {
       document.querySelector( '.quote' ).className = ( 'quote active' );    
     }, 100 )
   }
-  </script>
-  </head>
 
-<div id="header">
-  <h1><a href="https://conan-1iu.github.io/about/" id="download" class = "quote">
+  
+    window.onload = function() {
+      setTimeout( function() {
+        document.querySelector( '.quotee' ).className = ( 'quotee active' );    
+      }, 100 )
+    }
 
-    About me
+</script>
+</head>
+  
 
-  </a></h1>
+
+<div class = "centre">
+  <h1><a href="https://conan-1iu.github.io/about/" id="downloadd" class = "animate-reveal animate-first">
+Hello
+</a>
+</h1>
 </div>
 
-<br>
-<br>
 
 <div id="homed">
   {%- if site.posts.size > 0 -%}
+
+  
     <h2 class="post-list-heading">{{ page.list_title | default: "Most recent posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
@@ -42,10 +52,12 @@ layout: default3
       {%- endfor -%}
     </ul>
 
+    
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
+  
 </div>
 
 
 
-</div>
+

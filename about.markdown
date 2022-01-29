@@ -20,7 +20,7 @@ Student right now.
 <div class="quote">
   <div class="line"></div>
 
-<img src="luck.svg">
+Luck is the tenacity of hard work
 
   <div class="line"></div>
 </div>
