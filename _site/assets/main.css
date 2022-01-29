@@ -45,6 +45,10 @@ code { padding: 1px 5px; }
 pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
+.content-1 { font-family: calluna_regular, Times, serif; font-size: 20px; font-style: normal; font-weight: 100; letter-spacing: normal; line-height: 28px; text-transform: none; color: #EBEBEB; }
+
+.content-2 { font-family: freightsans_bookregular, Times, serif; font-size: 60px; font-style: normal; font-weight: 100; letter-spacing: normal; line-height: 70px; text-transform: none; color: #F3F3F3; }
+
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(88% - (30px * 2)); max-width: calc(88% - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 @media screen and (max-width: 88%) { .wrapper { max-width: -webkit-calc(88% - (30px)); max-width: calc(88% - (30px)); padding-right: 15px; padding-left: 15px; } }
@@ -136,6 +140,8 @@ table td { border: 1px solid #e8e8e8; }
 .post-content h3 { font-size: 26px; }
 @media screen and (max-width: 88%) { .post-content h3 { font-size: 22px; } }
 .post-content h4 { font-size: 20px; }
+.post-content h4 .content-1 { font-family: calluna_regular, Times, serif; font-size: 20px; font-style: normal; font-weight: 100; letter-spacing: normal; line-height: 28px; text-transform: none; color: #EBEBEB; }
+.post-content h4 .content-2 { font-family: freightsans_bookregular, Times, serif; font-size: 60px; font-style: normal; font-weight: 100; letter-spacing: normal; line-height: 70px; text-transform: none; color: #F3F3F3; }
 @media screen and (max-width: 88%) { .post-content h4 { font-size: 18px; } }
 
 /** Syntax highlighting styles */
