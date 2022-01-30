@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="en"><head>
+
+  <script>
+    window.onload = function() {
+      setTimeout( function() {
+        document.querySelector( '.quote' ).className = ( 'quote active' );    
+      }, 100 )
+    setTimeout( function() {
+        document.querySelector( '.qute' ).className = ( 'qute active' );    
+      }, 2000 )
+    }
+    
+    </script>
+    
+    
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -31,7 +45,7 @@
 
 <header class="site-header" role="banner">
 
-  <div class="quotee"><!-- original code for the title
+  <div class="quote"><!-- original code for the title
     
     <a class="site-title" rel="author" href="/">Cimmerian Library</a>
 
@@ -50,11 +64,12 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/datascience/">Data Science</a><a class="page-link" href="/club/">Data Science Club</a><a class="page-link" href="/academics/">Academics</a><a class="page-link" href="/CV/">Curriculum Vitae</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/CV/">Curriculum Vitae</a><a class="page-link" href="/datascience/">Data Science</a><a class="page-link" href="/club/">Data Science Club</a><a class="page-link" href="/academics/">Academics</a><a class="page-link" href="/growth/">Learnings</a></div>
       </nav></div>
 </div>
 </header>
 <main class="page-content" aria-label="Content" height = 100%>
+
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -63,6 +78,7 @@
     <p class="post-meta">
       <time class="dt-published" datetime="2020-12-02T00:28:16+11:00" itemprop="datePublished">Dec 2, 2020
       </time></p>
+      
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -77,14 +93,19 @@
 <p>Where <code class="language-plaintext highlighter-rouge">n</code> is the (maximum) number of posts that show. It’s the same code for tags; just replace <code class="language-plaintext highlighter-rouge">site.categories['news']</code> with <code class="language-plaintext highlighter-rouge">site.tags['news']</code>.</p>
 
   </div><a class="u-url" href="/datascience/ds/2020/12/02/liquid-tagging.html" hidden></a>
+
 </article>
 
       </div>
-    </main><footer class="site-footer h-card">
+    </main>
+
+    <br>
+<br>
+<br><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
 
   <div class="wrapper">
-
+    <div class = "animate-reveal animate-firstt">
     <h2 class="footer-heading">Cimmerian Library</h2>
 
     <div class="footer-col-wrapper">
@@ -100,7 +121,7 @@
         <center> <p>Sign up for my newsletter</p>
         </center> 
 
-        <iframe title="Subscribe to my newsletter" src="https://conanliu.substack.com/embed" width="550" height="70" frameborder="0" scrolling="no" center=""></iframe>
+        <iframe title="Subscribe to my newsletter" src="https://conanliu.substack.com/embed" width="550" height="115" frameborder="0" scrolling="no" center="yes"></iframe>
          
       </div>
 
@@ -109,6 +130,6 @@
     </div>
 
   </div>
-
+</div>
 </footer>
 </html>

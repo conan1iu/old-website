@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="en"><head>
+
+  <script>
+    window.onload = function() {
+      setTimeout( function() {
+        document.querySelector( '.quote' ).className = ( 'quote active' );    
+      }, 100 )
+    setTimeout( function() {
+        document.querySelector( '.qute' ).className = ( 'qute active' );    
+      }, 2000 )
+    }
+    
+    </script>
+    
+    
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -27,7 +41,7 @@
 
 <header class="site-header" role="banner">
 
-  <div class="quotee"><!-- original code for the title
+  <div class="quote"><!-- original code for the title
     
     <a class="site-title" rel="author" href="/">Cimmerian Library</a>
 
@@ -46,7 +60,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/datascience/">Data Science</a><a class="page-link" href="/club/">Data Science Club</a><a class="page-link" href="/academics/">Academics</a><a class="page-link" href="/CV/">Curriculum Vitae</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/CV/">Curriculum Vitae</a><a class="page-link" href="/datascience/">Data Science</a><a class="page-link" href="/club/">Data Science Club</a><a class="page-link" href="/academics/">Academics</a><a class="page-link" href="/growth/">Learnings</a></div>
       </nav></div>
 </div>
 </header>
@@ -76,7 +90,7 @@
   <data class="u-url" href="/"></data>
 
   <div class="wrapper">
-
+    <div class = "animate-reveal animate-firstt">
     <h2 class="footer-heading">Cimmerian Library</h2>
 
     <div class="footer-col-wrapper">
@@ -92,7 +106,7 @@
         <center> <p>Sign up for my newsletter</p>
         </center> 
 
-        <iframe title="Subscribe to my newsletter" src="https://conanliu.substack.com/embed" width="550" height="70" frameborder="0" scrolling="no" center=""></iframe>
+        <iframe title="Subscribe to my newsletter" src="https://conanliu.substack.com/embed" width="550" height="115" frameborder="0" scrolling="no" center="yes"></iframe>
          
       </div>
 
@@ -101,7 +115,7 @@
     </div>
 
   </div>
-
+</div>
 </footer>
 </body>
 
