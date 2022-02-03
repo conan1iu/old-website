@@ -1,7 +1,6 @@
 ---
 layout: post2
 title:  "On being a good leader"
-subtitle:  "Shower Soliloquy 1"
 date:   2022-01-30 00:28:16 +1100
 categories: growth
 ---
