@@ -25,16 +25,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Cimmerian Library</title>
+<title>Extracting code chunks from RSweave/Rmd file | Cimmerian Library</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Cimmerian Library" />
+<meta property="og:title" content="Extracting code chunks from RSweave/Rmd file" />
 <meta name="author" content="Conan Liu" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="Why?" />
+<meta property="og:description" content="Why?" />
+<link rel="canonical" href="http://localhost:4000/datascience/ds/2022/02/11/extracting-code-from-Rsweave.html" />
+<meta property="og:url" content="http://localhost:4000/datascience/ds/2022/02/11/extracting-code-from-Rsweave.html" />
 <meta property="og:site_name" content="Cimmerian Library" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-02-11T00:28:16+11:00" />
 <script type="application/ld+json">
-{"headline":"Cimmerian Library","url":"http://localhost:4000/","author":{"@type":"Person","name":"Conan Liu"},"@type":"WebSite","name":"Cimmerian Library","@context":"https://schema.org"}</script>
+{"description":"Why?","headline":"Extracting code chunks from RSweave/Rmd file","dateModified":"2022-02-11T00:28:16+11:00","datePublished":"2022-02-11T00:28:16+11:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/datascience/ds/2022/02/11/extracting-code-from-Rsweave.html"},"url":"http://localhost:4000/datascience/ds/2022/02/11/extracting-code-from-Rsweave.html","author":{"@type":"Person","name":"Conan Liu"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Cimmerian Library" /></head>
 <body>
@@ -65,89 +69,48 @@
 </div>
 </header>
 <main class="page-content" aria-label="Content" height = 100%>
-      
-      <div class = "centre">
-        <h1><a href="https://conan1iu.github.io/about/" id = "downloadd" class = "animate-reveal animate-first">
-      About me
-      </a>
-      </h1>
-      
-      <h1><a href="https://conan1iu.github.io/about/" id = "downloadd" class = "animate-reveal animate-second">
-        UNSW Co-op Scholar
-        </a>
-        </h1>
-      
-        <h1><a href="https://conan1iu.github.io/about/" id = "downloadd" class = "animate-reveal animate-third">
-      Radford College Programming Club
-          </a>
-          </h1>
-      
-      
-    </div>
 
       <div class="wrapper">
-        <head>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <script>
-  window.onload = function() {
-    setTimeout( function() {
-      document.querySelector( '.quote' ).className = ( 'quote active' );    
-    }, 100 )
-  }
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Extracting code chunks from RSweave/Rmd file</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-02-11T00:28:16+11:00" itemprop="datePublished">Feb 11, 2022
+      </time></p>
+      
+  </header>
 
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1><b>Why?</b></h1>
 
-</script>
-</head>
+<p>Sometimes when I write a report in RSweave, I will have a normal .R file on the side to test out code that I will need in the report. However, I also lose discipline at times and I end up completing all code within the RSweave file anyway. At times when I just want to upload the code to Github, I need a quick way to extract all code chunks.</p>
 
+<h1><b>Step 1: set working directory to where the base file is</b></h1>
 
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">getwd</span><span class="p">()</span><span class="w">
+</span><span class="n">setwd</span><span class="p">(</span><span class="n">...</span><span class="p">)</span></code></pre></figure>
 
-<div id="homed"><h2 class="post-list-heading">Most recent posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Feb 11, 2022</span>
-        <h3>
-          <a class="post-link" href="/datascience/ds/2022/02/11/extracting-code-from-Rsweave.html">
-            Extracting code chunks from RSweave/Rmd file
-          </a>
-        </h3></li><li><span class="post-meta">Jan 30, 2022</span>
-        <h3>
-          <a class="post-link" href="/growth/2022/01/30/On-being-a-good-leader.html">
-            On being a good leader
-          </a>
-        </h3></li><li><span class="post-meta">Jan 12, 2022</span>
-        <h3>
-          <a class="post-link" href="/datascience/ds/2022/01/12/Report.html">
-            Melbourne Housing Market Analysis
-          </a>
-        </h3></li><li><span class="post-meta">Jul 24, 2021</span>
-        <h3>
-          <a class="post-link" href="/datascience/ds/2021/07/24/Github-integration-with-R-copy.html">
-            Integrating Github with RStudio project
-          </a>
-        </h3></li><li><span class="post-meta">Apr 11, 2021</span>
-        <h3>
-          <a class="post-link" href="/academics/academic/2021/04/11/fourier.html">
-            Fourier Transform Report
-          </a>
-        </h3></li><li><span class="post-meta">Dec 3, 2020</span>
-        <h3>
-          <a class="post-link" href="/academics/academic/2020/12/03/textbook.html">
-            Neural Networks Textbook
-          </a>
-        </h3></li><li><span class="post-meta">Dec 2, 2020</span>
-        <h3>
-          <a class="post-link" href="/datascience/ds/2020/12/02/liquid-tagging.html">
-            Separating posts by category with Liquid
-          </a>
-        </h3></li></ul>
+<h1><b>Step 2: set object as file name</b></h1>
 
-    
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">a</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s1">'yourfilename.Rnw'</span></code></pre></figure>
+
+<p>NB: the base file name must be unique within the working directory. So in the case of RSweave files, where (as it uses LaTeX) after generating a report a bunch of other files with the same base name (but different extensions) are produced, you will need to rename the RSweave file to something completely different and unique.</p>
+
+<h1><b>Step 3: see below commands</b></h1>
+
+<p>For files operating under knitr, use “purl”. Otherwise use “Stangle” for RSweave variants.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">knitr</span><span class="o">::</span><span class="n">purl</span><span class="p">(</span><span class="n">a</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">Stangle</span><span class="p">(</span><span class="n">a</span><span class="p">)</span></code></pre></figure>
 
 
+  </div><a class="u-url" href="/datascience/ds/2022/02/11/extracting-code-from-Rsweave.html" hidden></a>
 
-
+</article>
 
       </div>
-      
     </main>
 
     <br>
