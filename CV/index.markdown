@@ -3,7 +3,7 @@ title: "Curriculum Vitae"
 layout: post2
 ---
 
-Currently unavailable.
+Please connect with me to view my CV! 
 
 <centre>
 <iframe 
