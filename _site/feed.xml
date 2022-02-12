@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-11T18:15:05+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Cimmerian Library</title><subtitle></subtitle><author><name>Conan Liu</name></author><entry><title type="html">Extracting code chunks from RSweave/Rmd file</title><link href="http://localhost:4000/datascience/ds/2022/02/11/extracting-code-from-Rsweave.html" rel="alternate" type="text/html" title="Extracting code chunks from RSweave/Rmd file" /><published>2022-02-11T00:28:16+11:00</published><updated>2022-02-11T00:28:16+11:00</updated><id>http://localhost:4000/datascience/ds/2022/02/11/extracting-code-from-Rsweave</id><content type="html" xml:base="http://localhost:4000/datascience/ds/2022/02/11/extracting-code-from-Rsweave.html">&lt;h1&gt;&lt;b&gt;Why?&lt;/b&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-12T19:40:18+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Cimmerian Library</title><subtitle></subtitle><author><name>Conan Liu</name></author><entry><title type="html">Extracting code chunks from RSweave/Rmd file</title><link href="http://localhost:4000/datascience/ds/2022/02/11/extracting-code-from-Rsweave.html" rel="alternate" type="text/html" title="Extracting code chunks from RSweave/Rmd file" /><published>2022-02-11T00:28:16+11:00</published><updated>2022-02-11T00:28:16+11:00</updated><id>http://localhost:4000/datascience/ds/2022/02/11/extracting-code-from-Rsweave</id><content type="html" xml:base="http://localhost:4000/datascience/ds/2022/02/11/extracting-code-from-Rsweave.html">&lt;h1&gt;&lt;b&gt;Why?&lt;/b&gt;&lt;/h1&gt;
 
 &lt;p&gt;Sometimes when I write a report in RSweave, I will have a normal .R file on the side to test out code that I will need in the report. However, I also lose discipline at times and I end up completing all code within the RSweave file anyway. At times when I just want to upload the code to Github, I need a quick way to extract all code chunks.&lt;/p&gt;
 
@@ -19,23 +19,7 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;knitr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;purl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;Stangle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Conan Liu</name></author><category term="datascience" /><category term="ds" /><summary type="html">Why?</summary></entry><entry><title type="html">On being a good leader</title><link href="http://localhost:4000/growth/2022/01/30/On-being-a-good-leader.html" rel="alternate" type="text/html" title="On being a good leader" /><published>2022-01-30T00:28:16+11:00</published><updated>2022-01-30T00:28:16+11:00</updated><id>http://localhost:4000/growth/2022/01/30/On-being-a-good-leader</id><content type="html" xml:base="http://localhost:4000/growth/2022/01/30/On-being-a-good-leader.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;On making a good leader:&lt;/p&gt;
-
-&lt;p&gt;Loyalty, but not to the point of beauracracy. No politics.&lt;/p&gt;
-
-&lt;p&gt;Respect and character. Not shaving the truth. Saying the same thing to everyone.&lt;/p&gt;
-
-&lt;p&gt;Gratitute.&lt;/p&gt;
-
-&lt;p&gt;Gratitude is trained.&lt;/p&gt;
-
-&lt;p&gt;2 Wolves story&lt;/p&gt;
-
-&lt;p&gt;“It’s harder to be kind than to be clever. It’s the difference between gifts and choices. Cleverness is a gift. Kindness is a choice.” - Jeff Bezos&lt;/p&gt;
-
-&lt;p&gt;“To know even one life has breathed easier because you have lived, this is to have succeeded.” – Ralph Waldo Emerson&lt;/p&gt;</content><author><name>Conan Liu</name></author><category term="growth" /><summary type="html"></summary></entry><entry><title type="html">Melbourne Housing Market Analysis</title><link href="http://localhost:4000/datascience/ds/2022/01/12/Report.html" rel="alternate" type="text/html" title="Melbourne Housing Market Analysis" /><published>2022-01-12T00:28:16+11:00</published><updated>2022-01-12T00:28:16+11:00</updated><id>http://localhost:4000/datascience/ds/2022/01/12/Report</id><content type="html" xml:base="http://localhost:4000/datascience/ds/2022/01/12/Report.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;Stangle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Conan Liu</name></author><category term="datascience" /><category term="ds" /><summary type="html">Why?</summary></entry><entry><title type="html">Melbourne Housing Market Analysis</title><link href="http://localhost:4000/datascience/ds/2022/01/12/Report.html" rel="alternate" type="text/html" title="Melbourne Housing Market Analysis" /><published>2022-01-12T00:28:16+11:00</published><updated>2022-01-12T00:28:16+11:00</updated><id>http://localhost:4000/datascience/ds/2022/01/12/Report</id><content type="html" xml:base="http://localhost:4000/datascience/ds/2022/01/12/Report.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;This was a self-guided project where I analysed a Melbourne housing market dataset from Kaggle. Credit to Tony Pino for that.&lt;/p&gt;
 
@@ -46,7 +30,37 @@
 &lt;centre&gt;
 &lt;iframe src=&quot;https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview&quot; width=&quot;100%&quot; height=&quot;900px&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allowtransparency=&quot;true&quot;&gt;
 &lt;/iframe&gt;
-&lt;/centre&gt;</content><author><name>Conan Liu</name></author><category term="datascience" /><category term="ds" /><summary type="html"></summary></entry><entry><title type="html">Integrating Github with RStudio project</title><link href="http://localhost:4000/datascience/ds/2021/07/24/Github-integration-with-R-copy.html" rel="alternate" type="text/html" title="Integrating Github with RStudio project" /><published>2021-07-24T23:28:16+10:00</published><updated>2021-07-24T23:28:16+10:00</updated><id>http://localhost:4000/datascience/ds/2021/07/24/Github-integration-with-R%20copy</id><content type="html" xml:base="http://localhost:4000/datascience/ds/2021/07/24/Github-integration-with-R-copy.html">&lt;h1&gt;&lt;b&gt;Why?&lt;/b&gt;&lt;/h1&gt;
+&lt;/centre&gt;</content><author><name>Conan Liu</name></author><category term="datascience" /><category term="ds" /><summary type="html"></summary></entry><entry><title type="html">On being a good leader</title><link href="http://localhost:4000/growth/2021/10/16/on-being-a-good-leader.html" rel="alternate" type="text/html" title="On being a good leader" /><published>2021-10-16T00:28:16+11:00</published><updated>2021-10-16T00:28:16+11:00</updated><id>http://localhost:4000/growth/2021/10/16/on-being-a-good-leader</id><content type="html" xml:base="http://localhost:4000/growth/2021/10/16/on-being-a-good-leader.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I believe loyalty and gratitude are two of the most important, fundamental traits that every person aspiring to be a leader should aim to develop. I don’t think I can think of any other traits from which all issues (professionally or otherwise) boil down to. And the key message lies within “aim to develop”. 
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;Loyalty&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+Loyalty is definitely an important one. But loyalty to many evokes the image of comraderie, a marriage, a connection to someone. But loyalty to a person is a huge caveat. Loyalty to a person too often spawns beauracracy, which with its derivative politics only causes the downfall of great teams and kills (competitive) collaboration. Loyalty should be to your word, a set of values, an organisation’s purpose, a vision, mission, or other frameworks that help you become a better person and make better decisions. Because being loyal to a person could mean when they are wrong, you also inevitably agree. However, healthy challenges in a relationship are necessary, and opposition is really the truest form of friendship. When you are loyal to a set of values, it also reflects in character, and you are less likely to shave the truth, and more likely to say the same thing to everyone, regardless of any outcomes. Loyalty leads to character. 
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;Gratitude&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+Gratitude is equally, if not (arguably) more important, than loyalty. In my opinion, gratitude is the single trait that any issue can boil down to, especially in relationships and personal development.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;Developing these traits&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+Like any skill, developing loyalty and gratitude takes a conscious effort, time and patience. In many senses, developing these is a process that never ends.&lt;/p&gt;
+
+&lt;p&gt;I remember when I first entered Year 11 (2020, about 16-17 years old), we had an opening assembly, and at some point the chaplain of the school came out to deliver her speech. I will admit: I was zoning out. However at some point I started listening and I am grateful I did because her story about two wolves was enlightening, to say the least.&lt;/p&gt;
+
+&lt;p&gt;To summarise, without getting into the details of a biblical allegory: within each of us lies two wolves - there is a dark one, and a light one. You may feed either wolf. It is up to you to decide which wolf you want to feed through your actions and thoughts. Do you want to feed the one who is jealous, scheming, and evil? Or the one who is compassionate, kind, and honest?&lt;/p&gt;
+
+&lt;p&gt;I loved her story because loyalty and gratitude are trained. You must make conscious efforts every day to stregnthen your loyalty and gratitude.&lt;/p&gt;
+
+&lt;p&gt;There are many ways to develop these skills. Personally, I pray every day. When I do, I will list something I am thankful for, something I am grateful for, something I am hopeful for, and something I am sorry for. I do think there is a subtle difference between “thankful” and “grateful”. I do like the definition &lt;strong&gt;&lt;a src=&quot;https://liveboldandbloom.com/07/values/grateful-vs-thankful#:~:text=You%20can%20exhibit%20your%20thanks,in%20both%20fable%20and%20psalm.&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;“It’s harder to be kind than to be clever. It’s the difference between gifts and choices. Cleverness is a gift. Kindness is a choice.” - Jeff Bezos&lt;/p&gt;
+
+&lt;p&gt;“To know even one life has breathed easier because you have lived, this is to have succeeded.” – Ralph Waldo Emerson&lt;/p&gt;</content><author><name>Conan Liu</name></author><category term="growth" /><summary type="html"></summary></entry><entry><title type="html">Integrating Github with RStudio project</title><link href="http://localhost:4000/datascience/ds/2021/07/24/Github-integration-with-R-copy.html" rel="alternate" type="text/html" title="Integrating Github with RStudio project" /><published>2021-07-24T23:28:16+10:00</published><updated>2021-07-24T23:28:16+10:00</updated><id>http://localhost:4000/datascience/ds/2021/07/24/Github-integration-with-R%20copy</id><content type="html" xml:base="http://localhost:4000/datascience/ds/2021/07/24/Github-integration-with-R-copy.html">&lt;h1&gt;&lt;b&gt;Why?&lt;/b&gt;&lt;/h1&gt;
 
 &lt;p&gt;By integrating an RStudio project with Github, you can directly push changes using Git. This is extremely convenient and is actually what I used to build a website for my club, completely within R itself. And, to my observation, you can create a whole project, sync it to a new repo and when you commit+push all your new files, you may upload more than 100 files at once.&lt;/p&gt;
 
