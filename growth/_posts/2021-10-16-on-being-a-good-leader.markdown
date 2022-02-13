@@ -4,9 +4,6 @@ title:  "On being a good leader"
 date:   2021-10-16 00:28:16 +1100
 categories: growth
 ---
-
-Currently a WIP
-
 <br>
 
 I believe loyalty and gratitude are two of the most important, fundamental traits that every person aspiring to be a leader should aim to develop. I don't think I can think of any other traits from which all issues (professionally or otherwise) boil down to. And the key message lies within "aim to develop". 
@@ -30,13 +27,13 @@ Gratitude is equally, if not (arguably) more important, than loyalty. In my opin
 <br>
 Like any skill, developing loyalty and gratitude takes a conscious effort, time and patience. In many senses, developing these is a process that never ends. 
 
-I remember when I first entered Year 11 (2020, about 16-17 years old), we had an opening assembly, and at some point the chaplain of the school came out to deliver her speech. I will admit: I was zoning out. However at some point I started listening and I am grateful I did because her story about two wolves was enlightening, to say the least. 
+I remember when I first entered Year 11 (2020, about 16-17 years old), we had an opening assembly, and at some point the chaplain of the school came out to deliver her speech. I will admit: I was zoning out. However at some point I started listening and I am grateful I did, because her story about two wolves was powerful, to say the least. 
 
-To summarise, without getting into the details of a biblical allegory: within each of us lies two wolves - there is a dark one, and a light one. You may feed either wolf. It is up to you to decide which wolf you want to feed through your actions and thoughts. Do you want to feed the one who is jealous, scheming, and evil? Or the one who is compassionate, kind, and honest?
+To summarise, without getting into the details of a biblical allegory: within each of us lies two wolves - there is a dark one, and a light one. You may feed either wolf. It is up to you to decide which wolf you want to feed through your actions and thoughts. Do you want to feed the one who is jealous, scheming, and evil? Or the one who is compassionate, kind, and honest? 
 
 I loved her story because loyalty and gratitude are trained. You must make conscious efforts every day to stregnthen your loyalty and gratitude.   
 
-There are many ways to develop these skills. Personally, I pray every day. When I do, I will list something I am thankful for, something I am grateful for, something I am hopeful for, and something I am sorry for. I do think there is a subtle difference between "thankful" and "grateful". I do like the definition <strong><a src="https://liveboldandbloom.com/07/values/grateful-vs-thankful#:~:text=You%20can%20exhibit%20your%20thanks,in%20both%20fable%20and%20psalm.">here</a></strong>. 
+There are many ways to develop these skills. Personally, I will list something I am thankful for, something I am grateful for, something I am hopeful for, and something I am sorry for, every single day. I do think there is a subtle difference between "thankful" and "grateful". I do like the definition <strong><a src="https://liveboldandbloom.com/07/values/grateful-vs-thankful#:~:text=You%20can%20exhibit%20your%20thanks,in%20both%20fable%20and%20psalm.">here</a></strong>. 
 
 
 
