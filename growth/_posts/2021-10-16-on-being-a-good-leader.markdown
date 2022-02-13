@@ -41,6 +41,11 @@ There are many ways to develop these skills. Personally, I pray every day. When 
 
 
 
+
+<br>
+<br>
+<h1>Food for the soul</h1>
+<br>
 “It’s harder to be kind than to be clever. It’s the difference between gifts and choices. Cleverness is a gift. Kindness is a choice.” - Jeff Bezos
 
 "To know even one life has breathed easier because you have lived, this is to have succeeded." – Ralph Waldo Emerson
