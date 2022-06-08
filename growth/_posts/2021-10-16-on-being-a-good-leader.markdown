@@ -33,7 +33,17 @@ To summarise, without getting into the details of a biblical allegory: within ea
 
 I loved her story because loyalty and gratitude are trained. You must make conscious efforts every day to stregnthen your loyalty and gratitude.   
 
-There are many ways to develop these skills. Personally, I will list something I am thankful for, something I am grateful for, something I am hopeful for, and something I am sorry for, every single day. I do think there is a subtle difference between "thankful" and "grateful". I do like the definition <strong><a src="https://liveboldandbloom.com/07/values/grateful-vs-thankful#:~:text=You%20can%20exhibit%20your%20thanks,in%20both%20fable%20and%20psalm.">here</a></strong>. 
+There are many ways to develop these skills. Personally, I will list something I am thankful for, something I am grateful for, something I am hopeful for, and something I am sorry for, every single day. I do think there is a subtle difference between "thankful" and "grateful". I do like the definition <strong><a src="https://liveboldandbloom.com/07/values/grateful-vs-thankful#:~:text=You%20can%20exhibit%20your%20thanks,in%20both%20fable%20and%20psalm.">here</a></strong>. Listing such things helps to develop the aspect of reflection that builds gratitude, and enforcing such a habit every day will, over time, mould you to become more appreciative of literally every good thing in your life, no matter how small or large. 
+
+Reflecting about things you are sorry for every day is not to be taken to the extreme. Simply reflecting on where you could have displayed a better attitude or approach to someone, or people, is powerful. And it can especially 
+
+
+
+Surround yourself. Bitter poeple - bitter you. 
+
+actively externally reflect
+
+
 
 
 

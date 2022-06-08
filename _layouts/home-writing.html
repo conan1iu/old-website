@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="homed">
+  <div class = "animate-reveal animate-firstt">
+  {%- if page.title -%}
+    <h1 class="page-heading">🌱 All things regarding the art of writing and storytelling!</h1>
+  {%- endif -%}
+</br>
+
+</br>
+
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Most recent posts" }}</h2>
+  </br>
+    <ul class="post-list">
+      {% for post in site.categories['www'] limit:10 %}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {% endfor %}
+    </ul>
+
+    </br>
+  </br>
+</br>
+</br>
+
+  
+  {%- endif -%}
+
+</div>
+</div>
