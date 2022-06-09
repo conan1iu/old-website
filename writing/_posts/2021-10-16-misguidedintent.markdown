@@ -14,7 +14,7 @@ A creative piece I wrote on the destructive nature of expectations; inspired by 
 <br> 
 <style>
 p  {
-  font-family: "Bookman Old Style", Georgia, serif;
+  font-family: "Baskerville", Georgia, serif;
 }
 </style>
 <p>
